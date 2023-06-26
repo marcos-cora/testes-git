@@ -17,8 +17,11 @@ class Primeiro {
     a = Integer.parseInt(entrada.nextLine());
     System.out.print("Digite o segundo valor: ");
     b = Integer.parseInt(entrada.nextLine());
-    c = a + b;
-    System.out.println("Resultado: " + c);
+    System.out.print("Digite o segundo valor: ");
+    c = Integer.parseInt(entrada.nextLine());
+    int Result = 0;
+    Result = a + b + c;
+    System.out.println("Resultado: " + Result);
     /*
      * próximo teste é de incremento e decremento
      */
